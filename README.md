@@ -85,7 +85,10 @@ Here’s what you did (and others should do) to make it work:
 ```python
 os.environ["OPENAI_API_BASE"] = "http://127.0.0.1:1234/v1"
 os.environ["OPENAI_API_KEY"] = "lm-studio"
-🖥️ How the System Works (Flow Diagram)
+
+
+🖥️ **How the System Works (Flow Diagram)**
+
 sql
 Copy code
           +---------------------------+
@@ -110,35 +113,38 @@ Copy code
            💡 AI Answer Displayed in UI
 
 
-⚙️ Installation & Running the Project
-1️⃣ Clone the Repository
+
+## ⚙️ Installation & Running the Project
+
+### 1️⃣ Clone the Repository
+```bash
 git clone https://github.com/yourusername/Home_Remedies_AI.git
 cd Home_Remedies_AI
 
 
 
-2️⃣ Create Virtual Environment
+### 2️⃣ Create Virtual Environment
 python -m venv venv
 venv\Scripts\activate   # On Windows
 # OR
 source venv/bin/activate   # On macOS/Linux
 
 
-3️⃣ Install Dependencies
+### 3️⃣ Install Dependencies
 pip install -r requirements.txt
 
 
 
-4️⃣ Start LM Studio Server
+### 4️⃣ Start LM Studio Server
 
-Make sure LM Studio is running locally on
+**Make sure LM Studio is running locally on**
 👉 http://127.0.0.1:1234
 
 with the TinyLlama model loaded.
 
 
 
-🧠 Inside LM Studio:
+🧠 **Inside LM Studio:**
 
 Open LM Studio
 
@@ -152,7 +158,7 @@ Confirm API live at http://127.0.0.1:1234/v1/models
 
 
 
-5️⃣ Run the FastAPI App
+### 5️⃣ Run the FastAPI App
 uvicorn app:app --reload
 
 
@@ -163,14 +169,14 @@ Visit:
 
 Default Admin Token: dev-token-please-change
 
-🔑 Environment Variables
+🔑 ### Environment Variables
 Variable	Description	Default
 OPENAI_API_BASE	LM Studio endpoint	http://127.0.0.1:1234/v1
 OPENAI_API_KEY	Fake API key for LM Studio	lm-studio
 HOME_REMEDIES_ADMIN_TOKEN	Dashboard access token	dev-token-please-change
 
 
-🧠 How It Works Internally
+🧠### How It Works Internally
 
 PDF Loading – The app reads Basic_Home_Remedies.pdf and extracts text.
 
@@ -184,7 +190,7 @@ Response Display – The answer and metadata appear in the frontend.
 
 
 
-📊 API Endpoints
+📊 ### API Endpoints
 Endpoint	Method	Description
 /	GET	Main user interface
 /ask	POST	Ask a question via HTML form
@@ -195,7 +201,7 @@ Endpoint	Method	Description
 /admin/api/clear-history	POST	Clear logs
 
 
-🧰 Troubleshooting
+🧰 ### Troubleshooting
 Problem	Possible Solution
 ❌ QA system not ready	Start LM Studio with TinyLlama loaded
 ⚠️ ModuleNotFoundError: qa_engine	Check folder structure & __init__.py
