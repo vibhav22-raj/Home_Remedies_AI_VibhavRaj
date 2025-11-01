@@ -108,30 +108,37 @@ Copy code
                         |
                         v
            💡 AI Answer Displayed in UI
-## ⚙️ Installation & Running the Project
 
-### 1️⃣ Clone the Repository
-```bash
+
+⚙️ Installation & Running the Project
+1️⃣ Clone the Repository
 git clone https://github.com/yourusername/Home_Remedies_AI.git
 cd Home_Remedies_AI
-### 2️⃣ Create Virtual Environment
-bash
-Copy code
+
+
+
+2️⃣ Create Virtual Environment
 python -m venv venv
 venv\Scripts\activate   # On Windows
 # OR
 source venv/bin/activate   # On macOS/Linux
-### 3️⃣ Install Dependencies
-bash
-Copy code
+
+
+3️⃣ Install Dependencies
 pip install -r requirements.txt
-### 4️⃣ Start LM Studio Server
+
+
+
+4️⃣ Start LM Studio Server
+
 Make sure LM Studio is running locally on
-***👉 http://127.0.0.1:1234
+👉 http://127.0.0.1:1234
 
 with the TinyLlama model loaded.
 
-***🧠 Inside LM Studio:
+
+
+🧠 Inside LM Studio:
 
 Open LM Studio
 
@@ -139,28 +146,32 @@ Go to the Models tab
 
 Download and load TinyLlama-1.1B-Chat-v1.0
 
-Start the Local Server from the right sidebar
+Start the Local Server
 
-Confirm the API is live at: http://127.0.0.1:1234/v1/models
+Confirm API live at http://127.0.0.1:1234/v1/models
 
-### 5️⃣ Run the FastAPI App
-bash
-Copy code
+
+
+5️⃣ Run the FastAPI App
 uvicorn app:app --reload
-Visit:
 
-***🌐 User Interface: http://127.0.0.1:8000/
-***🧭 Admin Dashboard: http://127.0.0.1:8000/admin/dashboard
+
+Visit:
+🌐 User Interface: http://127.0.0.1:8000
+
+🧭 Admin Dashboard: http://127.0.0.1:8000/admin/dashboard
 
 Default Admin Token: dev-token-please-change
 
-### 🔑 Environment Variables
+🔑 Environment Variables
 Variable	Description	Default
 OPENAI_API_BASE	LM Studio endpoint	http://127.0.0.1:1234/v1
 OPENAI_API_KEY	Fake API key for LM Studio	lm-studio
 HOME_REMEDIES_ADMIN_TOKEN	Dashboard access token	dev-token-please-change
 
-### 🧠 How It Works Internally
+
+🧠 How It Works Internally
+
 PDF Loading – The app reads Basic_Home_Remedies.pdf and extracts text.
 
 Embedding Creation – LangChain converts each text chunk into numerical vectors.
@@ -171,7 +182,9 @@ TinyLlama Response – LM Studio (TinyLlama) generates a natural language answer
 
 Response Display – The answer and metadata appear in the frontend.
 
-### 📊 API Endpoints
+
+
+📊 API Endpoints
 Endpoint	Method	Description
 /	GET	Main user interface
 /ask	POST	Ask a question via HTML form
@@ -181,25 +194,14 @@ Endpoint	Method	Description
 /admin/api/metrics	GET	Metrics API
 /admin/api/clear-history	POST	Clear logs
 
-### 📦 Example requirements.txt
-txt
-Copy code
-fastapi
-uvicorn
-jinja2
-langchain
-openai
-faiss-cpu
-python-multipart
-pypdf
-### 🧰 Troubleshooting
-Problem	Possible Solution
-***❌ QA system not ready	Start LM Studio server with TinyLlama loaded
-***⚠️ ModuleNotFoundError: qa_engine	Check folder structure & __init__.py
-***🔒 Dashboard unauthorized	Provide correct admin token or update .env
-***🖼️ Static/Template not loading	Ensure static/ & templates/ paths are correct
 
-### 🧑‍💻 Tech Stack
+🧰 Troubleshooting
+Problem	Possible Solution
+❌ QA system not ready	Start LM Studio with TinyLlama loaded
+⚠️ ModuleNotFoundError: qa_engine	Check folder structure & __init__.py
+🔒 Dashboard unauthorized	Use correct admin token
+🖼️ Static/Template not loading	Verify paths to static/ & templates/
+🧑‍💻 Tech Stack
 Layer	Technology
 Frontend	HTML + CSS + JS + Jinja2
 Backend	FastAPI
@@ -209,15 +211,26 @@ Storage	FAISS (Vector Store)
 Charts	Chart.js
 UI Styling	Bootstrap 5
 
-📸 Preview
-🏠 User Interface:
 
-📊 Admin Dashboard:
+📸 Preview
+
+
+🏠 User Interface
+
+
+📊 Admin Dashboard
 
 🚀 Future Enhancements
+
 🔄 Live answer streaming via WebSocket
 
 💾 Persistent metrics with SQLite
+
+🧭 Multi-PDF knowledge base
+
+🌙 Dark mode for dashboard
+
+🤖 Support for other local models in LM Studio
 
 🧭 Multi-PDF knowledge base
 
