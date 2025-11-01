@@ -7,6 +7,18 @@ This project connects a **local LLM (TinyLlama in LM Studio)** to a **custom Fas
 
 ---
 
+# 🏠 Home Remedies AI — TinyLlama + LangChain (FastAPI Dashboard)
+
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-Framework-009688?logo=fastapi)](https://fastapi.tiangolo.com/)
+[![LangChain](https://img.shields.io/badge/LangChain-Enabled-8A2BE2?logo=chainlink)](https://www.langchain.com/)
+[![LM Studio](https://img.shields.io/badge/LM%20Studio-TinyLlama-orange?logo=openai)](https://lmstudio.ai)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellowgreen.svg)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Active-brightgreen)](#)
+[![Bootstrap](https://img.shields.io/badge/UI-Bootstrap%205-blueviolet?logo=bootstrap)](https://getbootstrap.com/)
+[![Chart.js](https://img.shields.io/badge/Charts-Chart.js-red?logo=chartdotjs)](https://www.chartjs.org/)
+
+
 ## 🌟 Features
 
 ### 💬 Ask About Any Home Remedy
