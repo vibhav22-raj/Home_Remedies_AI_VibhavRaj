@@ -1,0 +1,25 @@
+# Core dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+jinja2==3.1.2
+
+# LangChain and related
+langchain==0.1.20
+langchain-community==0.0.38
+langchain-experimental==0.0.56
+langchain-openai==0.1.1
+
+# HuggingFace for embeddings only
+sentence-transformers==2.2.2
+
+# Vector store
+faiss-cpu==1.7.4
+
+# PDF processing
+pdfplumber==0.10.3
+
+# Additional utilities
+numpy==1.24.3
+pandas==2.0.3
+openai==1.7.2
