@@ -652,7 +652,7 @@ We welcome contributions to improve the Home Remedies AI system!
 **Vibhav Raj**  
 🤖 AI/ML Engineer | 🏥 Healthcare Technology Enthusiast
 
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=social&logo=github)](https://github.com/vibhavraj)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=social&logo=github)](https://github.com/vibhav22-raj)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=social&logo=linkedin)](https://linkedin.com/in/vibhavraj)
 
 
@@ -705,10 +705,8 @@ Special thanks to:
 Open an issue: [GitHub Issues](https://github.com/vibhavraj/Home_Remedies_AI_VibhavRaj/issues)
 
 ### 💬 Need Help?
-- 📧 Email: vibhavraj@example.com
-- 💬 Discord: [Join our AI community](#)
-- 🐦 Twitter: [@vibhavraj](#)
-- 💼 LinkedIn: [Vibhav Raj](#)
+- 📧 Email: thevibhav2005@gmail.com
+- 💼 LinkedIn: https://linkedin.com/in/vibhavraj
 
 ### 💰 Support the Project
 If this project helped you:
@@ -729,16 +727,6 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 - ✅ Private use
 - ❌ Liability
 - ❌ Warranty
-
----
-
-## 📊 Project Stats
-
-![GitHub stars](https://img.shields.io/github/stars/vibhavraj/Home_Remedies_AI_VibhavRaj?style=social)
-![GitHub forks](https://img.shields.io/github/forks/vibhavraj/Home_Remedies_AI_VibhavRaj?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/vibhavraj/Home_Remedies_AI_VibhavRaj?style=social)
-![GitHub issues](https://img.shields.io/github/issues/vibhavraj/Home_Remedies_AI_VibhavRaj)
-![GitHub last commit](https://img.shields.io/github/last-commit/vibhavraj/Home_Remedies_AI_VibhavRaj)
 
 ---
 
