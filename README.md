@@ -712,8 +712,7 @@ Open an issue: [GitHub Issues](https://github.com/vibhavraj/Home_Remedies_AI_Vib
 If this project helped you:
 
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Support-yellow?style=for-the-badge&logo=buy-me-a-coffee)](https://buymeacoffee.com/vibhavraj)
-[![Sponsor](https://img.shields.io/badge/Sponsor-GitHub-pink?style=for-the-badge&logo=github)](https://github.com/sponsors/vibhavraj)
-
+[![Sponsor](https://img.shields.io/badge/Sponsor-GitHub-pink?style=for-the-badge&logo=github)](https://github.com/vibhav22-raj)
 ---
 
 ## 📜 License
